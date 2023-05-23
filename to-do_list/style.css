@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 25px;
+  align-items: center;
+}
+.input-container {
+  text-align: center;
+  padding: 25px;
+  width: 100%;
+  max-width: 500px;
+}
+.textInput {
+  padding: 15px;
+  margin-block: 12px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  width: 70%;
+}
+#addBtn {
+  background-color: #4285f4;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 10px;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+#addBtn:hover {
+  cursor: pointer;
+  background-color: #60b160;
+}
+ul {
+  width: 70%;
+  max-width: 450px;
+}
+ul li {
+  list-style-type: none;
+  margin-block-end: 12px;
+  border: 0.125px solid #a19f9f;
+  border-radius: 8px;
+  padding: 6px 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.5s;
+}
+ul li:hover {
+  cursor: pointer;
+  background-color: #e2dbdb;
+}
+ul li p {
+  padding: 2px;
+  flex-grow: 1;
+  font-weight: bold;
+}
+.btn {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  font-weight: 600;
+  padding: 8px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.deleteBtn {
+  color: red;
+}
+.editBtn {
+  color: #008000;
+}
+.impBtn {
+  color: blue;
+}
+.impMarked {
+  background-color: #4296df;
+}
+li.important {
+  background-color: yellow;
+}
